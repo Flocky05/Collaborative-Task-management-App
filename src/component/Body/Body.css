@@ -1,0 +1,24 @@
+.task-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.task-section a{
+    text-decoration: none;
+    background-color: darkgray;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 20px;
+}
+.task-section a:hover{
+    text-shadow: 1px 1px 3px white, 0 0 25px white, 0 0 5px white;
+}
+.task-container img{
+    padding: 20px;
+}
