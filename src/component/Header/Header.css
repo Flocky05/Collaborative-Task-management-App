@@ -1,0 +1,40 @@
+.header{
+    height: 80px;
+    background: #1C2B35;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.header img{
+    width: 50px;
+    height: 50px;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+}
+.header-left a{
+    padding: 10px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+.header-left a:hover{
+    text-shadow: 1px 1px 2px white, 0 0 25px white, 0 0 5px white;
+}
+.header-right{
+    padding: 20px;  
+}
+.header-right a{
+    padding: 20px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-decoration: none;
+}
+.header-right a:hover{
+    text-shadow: 1px 1px 2px white, 0 0 25px white, 0 0 5px white;
+}
