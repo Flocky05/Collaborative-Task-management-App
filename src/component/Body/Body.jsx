@@ -2,14 +2,14 @@ import './Body.css'
 import img1 from "../../assets/images/body2.avif"
 const Body = () => {
     return (
-        <div className='task-container'>
-            <div className='task-section'>
-                <h2>Collaborative Task</h2>
-                <p>Teamwork is the collaborative effort of a group to achieve a common goal or to complete a task in an effective and efficient way. Teamwork is seen within the framework of a team, which is a group of interdependent individuals who work together towards a common goal.</p>
-                <a href="">Learn More</a>
+        <div className='grid grid-cols-2 items-center'>
+            <div className='task-section p-4'>
+                <h2 className='text-2xl font-bold'>Collaborative Task</h2>
+                <p className='my-4'>Teamwork is the collaborative effort of a group to achieve a common goal or to complete a task in an effective and efficient way. Teamwork is seen within the framework of a team, which is a group of interdependent individuals who work together towards a common goal.</p>
+                <a className=' bg-indigo-950 px-4 py-2 rounded-lg text-white' href="">Learn More</a>
             </div>
             <div>
-                <img src={img1} alt="" />
+                <img className='w-full' src={img1} alt="" />
             </div>
         </div>
     );
