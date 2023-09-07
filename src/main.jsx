@@ -12,6 +12,7 @@ import MyTask from './component/My-Task/MyTask.jsx';
 import Inbox from './component/Inbox/Inbox.jsx';
 import Create from './component/Create/Create.jsx';
 import Login from './component/Login/Login.jsx';
+import SignUp from './component/SignUp/SignUp.jsx';
 
 const router = createBrowserRouter([
   {
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
           path:"/login",
           element:<Login></Login>
         },
+        {
+          path:"signUp",
+          element:<SignUp></SignUp>
+        }
     ]
   },
 ]);
