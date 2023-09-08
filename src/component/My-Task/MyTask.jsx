@@ -16,7 +16,7 @@ const MyTask = () => {
                     </div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, ad.</p>
                     <p>due: <span className="font-bold text-red-500">13%</span></p>
-                    <a className="bg-blue-600 text-white px-3 py-1 rounded-lg" href="">More</a>
+                    <a className="bg-blue-600 text-white px-4 py-1 rounded-lg" href="">More</a>
                     </div>
                 </div>
                 <div className="border-2 rounded-lg">
@@ -28,7 +28,7 @@ const MyTask = () => {
                     </div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, ad.</p>
                     <p>due: <span className="font-bold text-red-500">13%</span></p>
-                    <a className="bg-blue-600 text-white px-3 py-1 rounded-lg" href="">More</a>
+                    <a className="bg-blue-600 text-white px-4 py-1 rounded-lg" href="">More</a>
                     </div>
                 </div>
                 <div className="border-2 rounded-lg">
@@ -40,7 +40,7 @@ const MyTask = () => {
                     </div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, ad.</p>
                     <p>due: <span className="font-bold text-red-500">13%</span></p>
-                    <a className="bg-blue-600 text-white px-3 py-1 rounded-lg" href="">More</a>
+                    <a className="bg-blue-600 text-white px-4 py-1 rounded-lg" href="">More</a>
                     </div>
                 </div>
             </div>

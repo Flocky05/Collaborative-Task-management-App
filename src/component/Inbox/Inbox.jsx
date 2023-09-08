@@ -8,7 +8,7 @@ import task7 from "../../assets/images/my task/task7.jpg"
 const Inbox = () => {
     return (
         <div className="flex">
-            <div className="bg-orange-200 w-1/4 h-full">
+            <div className="bg-orange-200 w-1/4 min-h-screen">
                 <div className="flex p-2 items-center ">
                     <img className="w-16 h-16 rounded-full" src={task1} alt="" />
                     <h3 className="text-lg px-2">Business Start</h3>
